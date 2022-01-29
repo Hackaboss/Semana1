@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Enlace</title>
+    <meta charset="utf-8" />
+  </head>
+  <body>
+    <header>
+      <h1>Enlaces</h1>
+    </header>
+    <main>
+      <section>
+        <h2>Anclas</h2>
+        <p>Empiezan por #</p>
+        <a href="#externos">Externos</a>
+        <a href="#internos">Internos</a>
+        <a href="#descarga">Descarga</a>
+      </section>
+      <section id="externos">
+        <h2>Externos</h2>
+        <p>Llevan a otros sitios web y siempre empiezan por hhttp</p>
+        <p>
+          El atributo target con valor _blank abre el enlace en una nueva
+          pestaña
+        </p>
+        <a href="http://google.com" target="_blank">Google</a>
+        <a target="_blank" href="http://wikipedia.org"> Facebook Wikipedia</a>
+      </section>
+      <section id="internos">
+        <h2>Internos</h2>
+        <p>PLlevan a otras paginas del mismo sitio</p>
+        <h3>Rutas absolutas</h3>
+        <p>Van desde la raiz y siempre empiezan por /</p>
+        <a href=" / ">Index</a>
+        <a href="/repaso.html">Repaso</a>
+        <a href="/Carpeta-1/carpeta2/index.html">Carperta 2</a>
+        <h3>Rutas relativas</h3>
+        <p>
+          Van desde la carpeta en la que estamos. No empieza de ninguna forma
+          especifica
+        </p>
+        <a href="../">Index</a>
+        <a href="../repaso.html">Repaso</a>
+        <a href="carpeta2/index.html">carpeta2</a>
+      </section>
+      <section id="descarga">
+        <h2>Enlaces de descarga</h2>
+        <p>Llevan el atributo download, tienen que ser internos</p>
+        <p>Si le damos valor sera el nombe con el que se descargue</p>
+        <a href="carpeta2/descarga (1).jpeg" download="pikachu">Descargar</a>
+      </section>
+      <a href="#">Volver arriba</a>
+    </main>
+  </body>
+</html>
